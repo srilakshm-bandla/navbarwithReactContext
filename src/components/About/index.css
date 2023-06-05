@@ -1,0 +1,40 @@
+/* Write your CSS here */
+/* Write your CSS here */
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100vw;
+  height: 100vh;
+}
+.about-container-dark {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  flex-grow: 1;
+  width: 100%;
+}
+.about-container-light {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  flex-grow: 1;
+  width: 100%;
+}
+.about-image {
+  width: 100px;
+  height: 100px;
+}
+.heading-dark {
+  color: white;
+  font-family: 'Roboto';
+}
+.heading-light {
+  color: #0000000;
+  font-family: 'Roboto';
+}
